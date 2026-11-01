@@ -1,0 +1,156 @@
+
+/* GENERAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f0f5ff;
+    color: #263653;
+    padding: 35px 20px;
+    max-width: 950px;
+    margin: auto;
+}
+
+/* MAIN HEADING */
+h1 {
+    text-align: center;
+    color: #2456a6;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    text-align: center;
+    color: #6680a8;
+    margin-bottom: 35px;
+    font-size: 21px;
+}
+
+/* SECTION HEADINGS */
+h3 {
+    color: #2865b5;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+/* PARAGRAPHS */
+p {
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+/* SECTION CARDS */
+body > h3,
+body > p,
+body > button,
+body > input,
+body > select,
+body > form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* INPUTS */
+input,
+select {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    padding: 13px 15px;
+    margin: 12px auto;
+    border: 1px solid #ccd9ee;
+    border-radius: 9px;
+    background: white;
+    font-size: 15px;
+    color: #263653;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+    border-color: #3478d4;
+    box-shadow: 0 0 0 3px rgba(52, 120, 212, 0.12);
+}
+
+/* BUTTONS */
+button {
+    display: inline-block;
+    padding: 12px 22px;
+    margin: 10px 0;
+    background: #3478d4;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2456a6;
+    transform: translateY(-2px);
+}
+
+/* THEME BUTTON */
+#themeBtn {
+    display: block;
+    margin: 15px auto 30px;
+}
+
+/* FORM */
+form {
+    background: white;
+    padding: 22px;
+    border-radius: 13px;
+    box-shadow: 0 4px 15px rgba(40, 75, 130, 0.08);
+}
+
+/* SUBMIT BUTTON */
+form button {
+    width: 100%;
+}
+
+/* OUTPUT TEXT */
+#outputText,
+#selectOption,
+#submitText {
+    color: #2456a6;
+    font-weight: 600;
+    background: #e4eeff;
+    padding: 12px;
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 12px auto 25px;
+    min-height: 20px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 14px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    form {
+        padding: 16px;
+    }
+}
